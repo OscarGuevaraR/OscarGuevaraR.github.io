@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Inscripción en linea</title>
+  <link href="estilos/estilos.css" rel="stylesheet" type="text/css">
+</head>
+
+
+<body>
+
+   <header>
+       <input type="checkbox" id="menu">
+       <label for="menu"><img src="img/menu.png" alt="">
+       </label>
+     <nav class="menu">
+       <ul>
+        <li><a href="#">  <img src="img/logo.jpg"></a></li>
+         <li><a href="#">Inicio</a></li>
+         <li><a href="#">El Club</a></li>
+         <li><a href="#">Actividades</a></li>
+         <li><a href="#">Torneos</a></li>
+        <li><a href="#">Inscripción en línea</a></li>
+        <li><a href="#">Videos</a></li>
+       </ul>
+     </nav>
+   </header>
+
+
+    <div class="contenedor-principal">
+        <div class="texto-informacion">
+            <p>La disciplina nos caracteriza, que esperas para unirte a nuestra academia de karate?, contamos con todo tipo de entretamientos, puedes convertirte en cinturon negro y ser un maestro de la defensa personal. ¿Qué es el karate? es un sistema de combate sin armas de origen japonés, hoy practicado principalmente como deporte, en el que dos combatientes luchan con el objetivo de derribar al contrario mediante golpes secos dados con el canto de las manos, los codos y los pies.
+            Inspírate en: Jean-Claude Van Damme; Dolph Lundgren; Wesley Snipes; Michael Jai White; Katheryn Winnick; Chuck Norris</p>
+            
+        </div>
+
+             <div class="formulario">
+                    <h1>Inscribete</h1>
+
+                    <div class="form-styles">
+<form method="POST" action="">
+
+
+                    <fieldset> 
+                <legend>
+                    Datos personales
+                </legend>
+                <div class="datos">
+                <label>Nombre: </label><br>
+                    <input type="text"  pattern="[a-zA-Z ]{2,254}" name="nombre" id="nombre" placeholder="Escriba su nombre"><br>
+                <label>Apellidos: </label><br>
+                    <input type="text"  pattern="[a-zA-Z ]{2,254}" name="apellido" id="apellido" placeholder="Escriba su apellido"> <br>
+                <label>Fecha de nacimiento: </label><br>
+                    <input type="date" name="nacimiento" id="fecha"> <br>
+                <label>Edad: </label><br>
+                    <input type="number" name="edad" id="edad" placeholder="10"><br>
+                <label>Genero: </label><br>
+                    <input type="radio" name="genero" id="genero" value="masculino">Masculino
+                    <input type="radio" name="genero" id="genero" value="femenino">Femenino <br>
+                <label>Correo Electronico: </label><br>
+                    <input type="text" name="correo" id="correo" placeholder="Escriba el correo electrónico"> <br>
+                <label>Departamento: </label><br>
+                    <select name="departamento" id="departamento">
+                        <option>San Salvador</option>
+                        <option>Santa Ana</option>
+                        <option>San Miguel</option>
+                        <option>Sonsonate</option>
+                        <option>Cabañas</option>
+                        <option>Cuscatlán</option>
+                        <option>Chalatenango</option>
+                        <option>La Unión</option>
+                        <option>La Paz</option>
+                        <option>La libertad</option>
+                        <option>Usulután</option>
+                        <option>Morazán</option>
+                        <option>San Vicente</option>
+                        <option>Ahuachapán</option>
+                    </select><br>
+
+                 <label>Domicilio: </label><br>
+                 <textarea placeholder="Escriba su domicilio"></textarea>
+
+                </div>
+            </fieldset>
+
+            <input type="submit" value="Registrarse" class="boton">
+</form>
+                    </div>
+            </div>
+
+
+    </div>
+
+<footer>
+<div class="footer">
+<a href="#"><img src="img/logo1.png"></a>
+<a href="#"><img src="img/logo2.png"></a>
+<a href="#"><img src="img/logo3.png"></a>
+<a href="#"><img src="img/logo4.png"></a>
+<p>Todos los derechos reservados | Diseñado por: Oscar Alexander Guevara Rodríguez 3°B</p>
+</div>
+</footer>
+
+
+
+</body>
+</html>

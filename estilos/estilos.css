@@ -1,0 +1,212 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor-principal{
+width: 90%;
+margin-top: 2em !important;
+margin: 0 auto;
+background: #84b6f4;
+font-family: sans-serif;
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+}
+
+.texto-informacion{
+width: 15em;
+margin: 0 auto;
+padding: 2em;
+text-align: justify;
+}
+
+
+ul li a img{
+    width: 30px;
+    height: 30px;
+}
+
+.formulario{
+width: 45em;
+margin: 0 auto;
+}
+
+.formulario h1{
+    text-align: center;
+}
+
+.form-styles{
+    width:  90%;
+    margin: 0 auto;
+}
+
+ input{
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+ select{
+    padding: 10px;
+    margin-top: 10px;
+      margin-bottom: 10px;
+}
+
+textarea{
+    resize: none;
+    width: 90%;
+}
+
+  header{
+    width: 90%;
+    margin: 0 auto;
+    background: #ff6961;
+}
+/*
+.logo-empresa img{
+    margin: 20px;
+    height: 20px
+}
+
+.logo-empresa{
+        margin: auto;
+        height: 20px;
+        width: 20px;
+        float: left
+}
+/*
+nav{
+       height: 5em;
+       background-color:red;
+       text-align: center;
+}
+
+nav ul{
+        list-style: none;
+        display: inline-block;
+        padding:18px;
+}
+
+nav ul li{
+         float: left;
+         margin-top: 20px;
+}
+
+nav ul li a {
+         color: white;
+         font-weight: bold;
+         text-decoration: none;
+         font-size: 20px;
+         padding: 18px;    
+}
+nav ul li a:hover{
+       background-color: orangered;
+}
+*/
+#nombre, #apellido, #correo, #departamento{
+    width: 90%;
+}
+.boton{
+    float: right;
+    background: blue;
+    color:gold;;
+    border: none;
+}
+
+.boton:hover{
+background: gold;
+color: blue;
+
+}
+.datos{
+    padding-left: 1.3em;
+    padding-top: 1em;
+}
+.footer{
+    padding-top: 20px;
+    margin-top: 2em !important;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    background: #77dd77;
+}
+
+.footer a{
+    margin: 0 0 15px 15px;
+    
+}
+
+.footer p{
+    margin-left: 10px;
+}
+
+.footer img{
+    width: 30px;
+    height: 30px;
+}
+
+
+#menu{
+    display: none;
+}
+
+header label{
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border-right: 1px solid #fff;
+}
+
+header label:hover{
+    cursor: pointer;
+    background: orange;
+}
+
+.menu ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li:hover{
+    background: orange;
+}
+
+.menu li a{
+    display: block;
+    padding: 15px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (max-width:768px){
+    header label{
+        display: block;
+    }
+    .menu{
+        position: absolute;
+        width: 70%;
+        background: #ff6961;
+        margin-left: -90%;
+    }
+
+    .menu ul{
+        flex-direction: column;
+    }
+    .menu li{
+        border-top: 1px solid #fff;
+    }
+    #menu:checked ~ .menu {
+        margin: 0;
+    }
+}
+
+
+			
